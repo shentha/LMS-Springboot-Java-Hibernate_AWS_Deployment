@@ -76,7 +76,7 @@ public class ProgBatchControllerTest {
 		mockMvc.perform( MockMvcRequestBuilders.get("/batches").contentType(MediaType.APPLICATION_JSON) )
 		       .andExpect(status().isOk())
 		       .andExpect(jsonPath("$", hasSize(3)));
-		System.out.println("Checking Jenkins")
+		System.out.println("Checking Jenkins");
 	}
 
 	
