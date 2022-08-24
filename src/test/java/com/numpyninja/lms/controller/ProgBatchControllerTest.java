@@ -77,7 +77,7 @@ public class ProgBatchControllerTest {
 		       .andExpect(status().isOk())
 		       .andExpect(jsonPath("$", hasSize(3)));
 		System.out.println("Checking Jenkins"); 
-		System.out.println("Triggering Jenkins Pipeline");
+		System.out.println("Triggering Jenkins Pipeline")
 	}
 
 	
